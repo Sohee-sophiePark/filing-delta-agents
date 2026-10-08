@@ -63,5 +63,6 @@ web/dist/
 *.swp
 .DS_Store
 
-# Derived corpus (rebuilt by `filing-delta ingest`)
-data/processed/
+# Web build output and data exported from replays at build time
+web/dist/
+web/public/data/

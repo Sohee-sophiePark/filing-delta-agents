@@ -1,0 +1,1730 @@
+{
+ "kind": "review",
+ "ticker": "LUV",
+ "name": "Southwest Airlines",
+ "fiscal_year": 2025,
+ "filings": {
+  "current_10k": {
+   "form": "10-K",
+   "filed": "2026-02-05",
+   "period": "2025-12-31",
+   "accession": "0000092380-26-000004",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "prior_10k": {
+   "form": "10-K",
+   "filed": "2025-02-07",
+   "period": "2024-12-31",
+   "accession": "0000092380-25-000024",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+  }
+ },
+ "signals": [
+  {
+   "id": "S1",
+   "level": "green",
+   "text": "Leverage fell year over year",
+   "refs": [
+    "leverage.2025",
+    "leverage.2024"
+   ]
+  },
+  {
+   "id": "S2",
+   "level": "red",
+   "text": "Interest coverage below the illustrative threshold",
+   "refs": [
+    "interest_coverage.2025"
+   ]
+  },
+  {
+   "id": "S3",
+   "level": "amber",
+   "text": "Next two years of debt maturities are large relative to cash",
+   "refs": [
+    "maturity_y1.2025",
+    "maturity_y2.2025",
+    "liquid_assets.2025"
+   ]
+  },
+  {
+   "id": "S4",
+   "level": "amber",
+   "text": "Credit-related risk factor added",
+   "refs": [
+    "0000092380-26-000004#RF-17"
+   ]
+  },
+  {
+   "id": "S5",
+   "level": "amber",
+   "text": "Credit-relevant 8-K since the 10-K",
+   "refs": [
+    "8K-0000092380-26-000098"
+   ]
+  },
+  {
+   "id": "S6",
+   "level": "amber",
+   "text": "Credit-relevant 8-K since the 10-K",
+   "refs": [
+    "8K-0001193125-26-230895"
+   ]
+  },
+  {
+   "id": "S7",
+   "level": "amber",
+   "text": "Credit-relevant 8-K since the 10-K",
+   "refs": [
+    "8K-0001193125-26-102966"
+   ]
+  }
+ ],
+ "allowed_status": [
+  "Monitor",
+  "Stable",
+  "Watchlist"
+ ],
+ "evidence": {
+  "0000092380-26-000004#7-283": {
+   "id": "0000092380-26-000004#7-283",
+   "kind": "passage",
+   "source": "10-K filed 2026-02-05, Item 7 MD&A",
+   "text": "Additional detail regarding the Company's available liquidity is provided in the table below. (in millions) December 31, 2025December 31, 2024 Cash and cash equivalents$3,231 $7,509 Short-term investments\u2014 1,216 Undrawn facilities1,500 1,000 Total available liquidity4,731 $9,725 On July 22, 2025, the Company exercised the accordion feature under its amended and restated revolving credit facility (the \"Amended Credit Agreement\"), increasing the size of the facility to $1.5 billion. As of December 31, 2025, the Company had access to $1.5 billion under the Amended Credit Agreement, which expires in August 2028. There were no amounts outstanding under the Amended Credit Agreement as of December 31, 2025. See Note 6 to the Consolidated Financial Statements for further information.",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000004#debt-49": {
+   "id": "0000092380-26-000004#debt-49",
+   "kind": "passage",
+   "source": "10-K filed 2026-02-05, Debt note",
+   "text": "On the day after the fifth anniversary of the note associated with the PSP3 Payroll Support Program during April 2026, the applicable interest rate is scheduled to change to SOFR plus two percent. Revolving Credit Facility As of December 31, 2025, the Company has access to $1.5 billion under its amended and restated revolving credit facility (the \"Amended Credit Agreement\"), which expires in August 2028, reflecting the Company's exercise of the accordion feature to increase the size of the facility on July 22, 2025. For the twelve months ended December 31, 2025 and 2024 there were no amounts outstanding under the Amended Credit Agreement.",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000077#2-334": {
+   "id": "0000092380-26-000077#2-334",
+   "kind": "passage",
+   "source": "10-Q filed 2026-07-23, Part I Item 2 MD&A",
+   "text": "The Company expects its 2026 net capital spending to be toward the low end of, or below, the $3.0 billion to $3.5 billion range based on its expectation of 64 -8 aircraft deliveries in 2026, with the remainder representing non-aircraft capital spending, partially offset by proceeds from sales of assets. The Company continues to plan for approximately 60 aircraft retirements in 2026. Net cash provided by financing activities was $493 million during the three months ended June 30, 2026, compared with $4.2 billion used in financing activities for the same prior year period. Net cash used in financing activities was $383 million during the six months ended June 30, 2026, compared with $5.0 billion used in financing activities for the same prior year period. During the six months ended June 30, 2026, the Company paid $181 million in cash dividends to Shareholders related to the first quarter 2026 and fourth quarter 2025 declarations. The second quarter 2026 dividend declaration of $87 million was paid in July 2026. Additionally, the Company expended $1.25 billion to repurchase the Company's outstanding common stock through accelerated share repurchase programs (each, an \"ASR\") and open market share repurchases during the six months ended June 30, 2026. The repurchases of common stock amounts in the unaudited Consolidated Statement of Cash Flows may differ from the unaudited Consolidated Statement of Stockholder's Equity due to the timing of excise taxes incurred and subsequent payment on share repurchases, net of issuances. During the six months ended June 30, 2026, the Company entered into the Term Loan Credit Agreement with a third-party bank, providing for the $500 million senior secured Term Loan Credit Facility that was drawn in full on March 11, 2026. On May 19, 2026, the Company executed an upsize of the Term Loan Facility for $1 billion of incremental term loan commitments. The Term Loan Facility matures in full on March 11, 2029. Additionally, the Company prepaid the $426 million outstanding balance of the note associated with the PSP3 Payroll Support Program in April 2026. See Note 10 to the unaudited Condensed Consolidated Financial Statements for further information. The Company may engage in early debt repurchases from time to time at its discretion;",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000077/luv-20260630.htm"
+  },
+  "0000092380-26-000004#7A-5": {
+   "id": "0000092380-26-000004#7A-5",
+   "kind": "passage",
+   "source": "10-K filed 2026-02-05, Item 7A Market Risk",
+   "text": "Financial Market Risk The vast majority of the Company\u2019s tangible assets are aircraft, which are long-lived. The Company\u2019s long-term strategy is to maintain an investment grade balance sheet and generate adequate profits and returns on capital, while growing capacity steadily under the right conditions. While the Company uses financial leverage, it strives to maintain a strong and efficient balance sheet and has investment grade credit ratings with all three major credit rating agencies as of December 31, 2025. See Note 6 to the Consolidated Financial Statements for more information on the material terms of the Company\u2019s short-term and long-term debt.",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000004#RF-7": {
+   "id": "0000092380-26-000004#RF-7",
+   "kind": "risk_factor",
+   "source": "10-K filed 2026-02-05, Item 1A risk factor (added)",
+   "text": "The Company may not be able to procure aircraft in the future in a timely manner or on favorable commercial terms, which could limit the Company\u2019s growth or negatively affect the Company\u2019s cost structure and competitive position. The Company\u2019s ability to execute its growth, fleet modernization, and strategic and operational plans may be affected by the timely procurement of additional aircraft on commercially favorable terms. Industry demand for new aircraft may exceed supply, and manufacturers may face production constraints, supply chain shortages, changes in production rates, labor disruptions, or order backlogs that limit availability of aircraft. The Company may also encounter less favorable pricing, reduced delivery slot availability, more restrictive contractual terms, or diminished negotiating leverage with aircraft manufacturers, sellers, or lessors. If the Company is unable to procure additional aircraft on acceptable terms or within planned timeframes, the resulting constraints could negatively affect the Company\u2019s ability to meet evolving Customer demands, pursue growth or network expansion opportunities, or replace aircraft planned for retirement, any of which could adversely affect the Company\u2019s competitive position, operating results, and financial condition.",
+   "status": "added",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000004#RF-8": {
+   "id": "0000092380-26-000004#RF-8",
+   "kind": "risk_factor",
+   "source": "10-K filed 2026-02-05, Item 1A risk factor (added)",
+   "text": "Introducing a new aircraft manufacturer or fleet type could impose significant operational complexities, regulatory requirements, and costs on the Company. If the Company\u2019s operations, growth, or strategic initiatives were to be dependent upon the introduction of a new aircraft make and model to the Company\u2019s fleet, the Company would need to, among other things, (i) develop and implement new maintenance, operating, and training programs; (ii) procure new simulators, tooling, spares, and facilities; (iii) secure extensive regulatory approvals; (iv) implement new technologies; (v) negotiate new supplier, parts-support, and maintenance arrangements; and (vi) negotiate pay and work rules with certain labor unions. The requirements associated with operating a new aircraft make and model could take an extended period of time to fulfill and would likely impose substantial costs on the Company. A shift away from a single fleet type could also add complexity to the Company\u2019s operations, present operational and compliance risks, and materially increase the Company\u2019s costs. Any of these events would have a material, adverse effect on the Company\u2019s business, operating results, and financial condition. The Company could also be materially adversely affected if the pricing or operational attributes of its aircraft were to become less competitive.",
+   "status": "added",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000004#RF-17": {
+   "id": "0000092380-26-000004#RF-17",
+   "kind": "risk_factor",
+   "source": "10-K filed 2026-02-05, Item 1A risk factor (added)",
+   "text": "The Company is expanding its use of AI and machine-learning. Any failure in the Company\u2019s AI implementation strategy, compliance with regulations, or failure to otherwise manage the risks related to AI technologies effectively could materially adversely affect its operations, reputation, and/or financial position. The Company is expanding its use of AI and machine-learning to carry out elements of its business strategy. The implementation of AI technologies also presents significant operational, legal, and competitive risks to the Company. Although the Company believes it diligently evaluates, governs, tests, and deploys AI-related technologies, the Company could face numerous AI-related challenges, such as cybersecurity vulnerabilities, algorithmic biases or errors, evolving regulatory requirements across jurisdictions, and potential competitive disadvantage if the Company\u2019s competitors deploy AI technologies more quickly or more successfully. The complex and evolving regulatory landscape surrounding AI technologies, including regarding violations of intellectual property rights and data privacy concerns, creates additional compliance challenges and potential liability. For example, emerging regulations, state laws, and other proposed legislation around AI may require companies that develop or deploy AI systems to establish formal governance structures and internal controls, including designated oversight personnel, documented risk assessment procedures, and regular compliance reviews of their AI systems. While the Company expects its AI adoption to enhance its operations, there can be no assurance of its effectiveness or that it will deliver the anticipated benefits. Furthermore, the Company\u2019s use of AI could result in reputational damage, legal exposure, or loss of Customer confidence if not properly deployed or managed. Moreover, changes to the Company\u2019s technology and systems could also expose the Company to intellectual property risks, such as allegations of infringement of third-party patents or copyrights. Defending against allegations could involve significant fees and resources. If the Company is found to infringe upon third-party intellectual property rights, the Company may be liable for damages.",
+   "status": "added",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  "0000092380-26-000004#RF-6": {
+   "id": "0000092380-26-000004#RF-6",
+   "kind": "risk_factor",
+   "source": "10-K filed 2026-02-05, Item 1A risk factor (modified)",
+   "text": "The Company is currently dependent on Boeing as the sole manufacturer of the Company's aircraft. If the MAX aircraft were to become unavailable for the Company's operations, or if the Company were to continue to experience prolonged delivery delays of MAX aircraft, the Company's business plans, strategies, and results of operations could be materially and adversely affected. The Boeing MAX aircraft are crucial to the Company\u2019s ability to operate and grow its business and fleet modernization initiatives. The Company operates the -8 out of the MAX family of aircraft and is awaiting delivery of the -7 out of the MAX family of aircraft. Deliveries of MAX aircraft from Boeing to the Company are subject to Boeing\u2019s production schedules and volumes. Boeing has in the past, and may continue to, experience delays in fulfilling its commitments with regards to delivery of the -8 to the Company as a result of manufacturing challenges. Further, the Company\u2019s contractual delivery schedule for the -7 is dependent on the FAA issuing required certifications and approvals to Boeing and the Company. The FAA will ultimately determine the timing of the -7 certification and entry into service, and the Company therefore offers no assurances that current estimations and timelines are correct. The Company currently operates a higher proportion of the Boeing 737 aircraft than other air carriers in the industry, and therefore may encounter novel hazards, age-related maintenance issues, or airworthiness issues associated with 737 aircraft to a larger degree than other carriers with more diversified fleets. Boeing no longer manufactures versions of the 737 other than the MAX family of aircraft. If the MAX aircraft were to become unavailable for the Company\u2019s flight operations, the Company\u2019s operations would be materially adversely affected. Further, if the -7 certification is not completed in a timely manner, the Company\u2019s growth and network plans could be restricted unless and until it could procure and operate other types of aircraft from Boeing or another manufacturer, seller, or lessor.",
+   "status": "modified",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  }
+ },
+ "metrics": {
+  "revenue.2023": {
+   "label": "Total operating revenue",
+   "value": 26091000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-140",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$26.1bn"
+  },
+  "operating_income.2023": {
+   "label": "Operating income",
+   "value": 224000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-164",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$224m"
+  },
+  "d_and_a.2023": {
+   "label": "Depreciation and amortization",
+   "value": 1522000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:DepreciationAndAmortization",
+    "fact_id": "f-155",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.5bn"
+  },
+  "interest_expense.2023": {
+   "label": "Interest expense",
+   "value": 259000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-167",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$259m"
+  },
+  "cfo.2023": {
+   "label": "Net cash from operating activities",
+   "value": 3164000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-326",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$3.2bn"
+  },
+  "total_debt.2023": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 8012000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-782",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$8.0bn"
+  },
+  "current_debt.2023": {
+   "label": "Current maturities of debt",
+   "value": 29000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "fact_id": "f-94",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$29m"
+  },
+  "operating_lease_liability.2023": {
+   "label": "Operating lease liabilities",
+   "value": 1193000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-892",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$1.2bn"
+  },
+  "finance_lease_liability.2023": {
+   "label": "Finance lease liabilities",
+   "value": 104000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-631",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$104m"
+  },
+  "cash.2023": {
+   "label": "Cash and cash equivalents",
+   "value": 9288000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-52",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$9.3bn"
+  },
+  "short_term_investments.2023": {
+   "label": "Short-term investments",
+   "value": 2186000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-54",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$2.2bn"
+  },
+  "maturity_y1.2023": {
+   "label": "Debt maturing within one year",
+   "value": 29000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-776",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$29m"
+  },
+  "maturity_y2.2023": {
+   "label": "Debt maturing in year two",
+   "value": 2934000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-777",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$2.9bn"
+  },
+  "maturity_y3.2023": {
+   "label": "Debt maturing in year three",
+   "value": 315000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-778",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$315m"
+  },
+  "maturity_y4.2023": {
+   "label": "Debt maturing in year four",
+   "value": 2142000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-779",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$2.1bn"
+  },
+  "maturity_y5.2023": {
+   "label": "Debt maturing in year five",
+   "value": 11000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-780",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$11m"
+  },
+  "maturity_after_y5.2023": {
+   "label": "Debt maturing after year five",
+   "value": 2581000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-781",
+    "form": "10-K",
+    "filed": "2024-02-06",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+   },
+   "display": "$2.6bn"
+  },
+  "ebitda.2023": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 1746000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2023",
+    "d_and_a.2023"
+   ],
+   "display": "$1.7bn"
+  },
+  "liquid_assets.2023": {
+   "label": "Cash and short-term investments",
+   "value": 11474000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2023",
+    "short_term_investments.2023"
+   ],
+   "display": "$11.5bn"
+  },
+  "net_debt.2023": {
+   "label": "Net debt",
+   "value": -3462000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2023",
+    "liquid_assets.2023"
+   ],
+   "display": "$-3.5bn"
+  },
+  "lease_adjusted_debt.2023": {
+   "label": "Lease-adjusted debt",
+   "value": 9309000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2023",
+    "operating_lease_liability.2023",
+    "finance_lease_liability.2023"
+   ],
+   "display": "$9.3bn"
+  },
+  "leverage.2023": {
+   "label": "Debt / EBITDA",
+   "value": 4.588774341351661,
+   "unit": "x",
+   "year": 2023,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "4.6x"
+  },
+  "net_leverage.2023": {
+   "label": "Net debt / EBITDA",
+   "value": -1.9828178694158076,
+   "unit": "x",
+   "year": 2023,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "-2.0x"
+  },
+  "lease_adjusted_leverage.2023": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 5.331615120274914,
+   "unit": "x",
+   "year": 2023,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "5.3x"
+  },
+  "interest_coverage.2023": {
+   "label": "Operating income / interest expense",
+   "value": 0.8648648648648649,
+   "unit": "x",
+   "year": 2023,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2023",
+    "interest_expense.2023"
+   ],
+   "display": "0.9x"
+  },
+  "ebitda_margin.2023": {
+   "label": "EBITDA margin",
+   "value": 0.06691962745774405,
+   "unit": "pct",
+   "year": 2023,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2023",
+    "revenue.2023"
+   ],
+   "display": "6.7%"
+  },
+  "cfo_to_debt.2023": {
+   "label": "Operating cash flow / debt",
+   "value": 0.39490763854218675,
+   "unit": "pct",
+   "year": 2023,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2023",
+    "total_debt.2023"
+   ],
+   "display": "39.5%"
+  },
+  "revenue.2024": {
+   "label": "Total operating revenue",
+   "value": 27483000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-139",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$27.5bn"
+  },
+  "operating_income.2024": {
+   "label": "Operating income",
+   "value": 321000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-163",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$321m"
+  },
+  "d_and_a.2024": {
+   "label": "Depreciation and amortization",
+   "value": 1657000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:DepreciationAndAmortization",
+    "fact_id": "f-154",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.7bn"
+  },
+  "interest_expense.2024": {
+   "label": "Interest expense",
+   "value": 249000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-166",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$249m"
+  },
+  "cfo.2024": {
+   "label": "Net cash from operating activities",
+   "value": 462000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-325",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$462m"
+  },
+  "total_debt.2024": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 6697000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-703",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$6.7bn"
+  },
+  "current_debt.2024": {
+   "label": "Current maturities of debt",
+   "value": 1630000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "fact_id": "f-94",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.6bn"
+  },
+  "operating_lease_liability.2024": {
+   "label": "Operating lease liabilities",
+   "value": 1359000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-841",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$1.4bn"
+  },
+  "finance_lease_liability.2024": {
+   "label": "Finance lease liabilities",
+   "value": 91000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-626",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$91m"
+  },
+  "cash.2024": {
+   "label": "Cash and cash equivalents",
+   "value": 7509000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-52",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$7.5bn"
+  },
+  "short_term_investments.2024": {
+   "label": "Short-term investments",
+   "value": 1216000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-54",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.2bn"
+  },
+  "maturity_y1.2024": {
+   "label": "Debt maturing within one year",
+   "value": 1633000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-697",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$1.6bn"
+  },
+  "maturity_y2.2024": {
+   "label": "Debt maturing in year two",
+   "value": 320000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-698",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$320m"
+  },
+  "maturity_y3.2024": {
+   "label": "Debt maturing in year three",
+   "value": 2149000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-699",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$2.1bn"
+  },
+  "maturity_y4.2024": {
+   "label": "Debt maturing in year four",
+   "value": 15000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-700",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$15m"
+  },
+  "maturity_y5.2024": {
+   "label": "Debt maturing in year five",
+   "value": 9000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-701",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$9m"
+  },
+  "maturity_after_y5.2024": {
+   "label": "Debt maturing after year five",
+   "value": 2571000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-702",
+    "form": "10-K",
+    "filed": "2025-02-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+   },
+   "display": "$2.6bn"
+  },
+  "ebitda.2024": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 1978000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2024",
+    "d_and_a.2024"
+   ],
+   "display": "$2.0bn"
+  },
+  "liquid_assets.2024": {
+   "label": "Cash and short-term investments",
+   "value": 8725000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2024",
+    "short_term_investments.2024"
+   ],
+   "display": "$8.7bn"
+  },
+  "net_debt.2024": {
+   "label": "Net debt",
+   "value": -2028000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2024",
+    "liquid_assets.2024"
+   ],
+   "display": "$-2.0bn"
+  },
+  "lease_adjusted_debt.2024": {
+   "label": "Lease-adjusted debt",
+   "value": 8147000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2024",
+    "operating_lease_liability.2024",
+    "finance_lease_liability.2024"
+   ],
+   "display": "$8.1bn"
+  },
+  "leverage.2024": {
+   "label": "Debt / EBITDA",
+   "value": 3.385743174924166,
+   "unit": "x",
+   "year": 2024,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "3.4x"
+  },
+  "net_leverage.2024": {
+   "label": "Net debt / EBITDA",
+   "value": -1.025278058645096,
+   "unit": "x",
+   "year": 2024,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "-1.0x"
+  },
+  "lease_adjusted_leverage.2024": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 4.118806875631951,
+   "unit": "x",
+   "year": 2024,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "4.1x"
+  },
+  "interest_coverage.2024": {
+   "label": "Operating income / interest expense",
+   "value": 1.2891566265060241,
+   "unit": "x",
+   "year": 2024,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2024",
+    "interest_expense.2024"
+   ],
+   "display": "1.3x"
+  },
+  "ebitda_margin.2024": {
+   "label": "EBITDA margin",
+   "value": 0.07197176436342466,
+   "unit": "pct",
+   "year": 2024,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2024",
+    "revenue.2024"
+   ],
+   "display": "7.2%"
+  },
+  "cfo_to_debt.2024": {
+   "label": "Operating cash flow / debt",
+   "value": 0.06898611318500822,
+   "unit": "pct",
+   "year": 2024,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2024",
+    "total_debt.2024"
+   ],
+   "display": "6.9%"
+  },
+  "revenue.2025": {
+   "label": "Total operating revenue",
+   "value": 28063000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-138",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$28.1bn"
+  },
+  "operating_income.2025": {
+   "label": "Operating income",
+   "value": 428000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-162",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$428m"
+  },
+  "d_and_a.2025": {
+   "label": "Depreciation and amortization",
+   "value": 1560000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:DepreciationAndAmortization",
+    "fact_id": "f-153",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.6bn"
+  },
+  "interest_expense.2025": {
+   "label": "Interest expense",
+   "value": 167000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-165",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$167m"
+  },
+  "cfo.2025": {
+   "label": "Net cash from operating activities",
+   "value": 1842000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-324",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.8bn"
+  },
+  "total_debt.2025": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 4929000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-690",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$4.9bn"
+  },
+  "current_debt.2025": {
+   "label": "Current maturities of debt",
+   "value": 324000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "fact_id": "f-93",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$324m"
+  },
+  "operating_lease_liability.2025": {
+   "label": "Operating lease liabilities",
+   "value": 1080000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-824",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.1bn"
+  },
+  "finance_lease_liability.2025": {
+   "label": "Finance lease liabilities",
+   "value": 78000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-625",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$78m"
+  },
+  "cash.2025": {
+   "label": "Cash and cash equivalents",
+   "value": 3231000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-51",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$3.2bn"
+  },
+  "short_term_investments.2025": {
+   "label": "Short-term investments",
+   "value": 0.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-53",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$0m"
+  },
+  "maturity_y1.2025": {
+   "label": "Debt maturing within one year",
+   "value": 321000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-684",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$321m"
+  },
+  "maturity_y2.2025": {
+   "label": "Debt maturing in year two",
+   "value": 2150000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-685",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$2.1bn"
+  },
+  "maturity_y3.2025": {
+   "label": "Debt maturing in year three",
+   "value": 766000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-686",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$766m"
+  },
+  "maturity_y4.2025": {
+   "label": "Debt maturing in year four",
+   "value": 11000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-687",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$11m"
+  },
+  "maturity_y5.2025": {
+   "label": "Debt maturing in year five",
+   "value": 504000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-688",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$504m"
+  },
+  "maturity_after_y5.2025": {
+   "label": "Debt maturing after year five",
+   "value": 1177000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-689",
+    "form": "10-K",
+    "filed": "2026-02-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+   },
+   "display": "$1.2bn"
+  },
+  "ebitda.2025": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 1988000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2025",
+    "d_and_a.2025"
+   ],
+   "display": "$2.0bn"
+  },
+  "liquid_assets.2025": {
+   "label": "Cash and short-term investments",
+   "value": 3231000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2025",
+    "short_term_investments.2025"
+   ],
+   "display": "$3.2bn"
+  },
+  "net_debt.2025": {
+   "label": "Net debt",
+   "value": 1698000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2025",
+    "liquid_assets.2025"
+   ],
+   "display": "$1.7bn"
+  },
+  "lease_adjusted_debt.2025": {
+   "label": "Lease-adjusted debt",
+   "value": 6087000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2025",
+    "operating_lease_liability.2025",
+    "finance_lease_liability.2025"
+   ],
+   "display": "$6.1bn"
+  },
+  "leverage.2025": {
+   "label": "Debt / EBITDA",
+   "value": 2.4793762575452716,
+   "unit": "x",
+   "year": 2025,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "2.5x"
+  },
+  "net_leverage.2025": {
+   "label": "Net debt / EBITDA",
+   "value": 0.8541247484909457,
+   "unit": "x",
+   "year": 2025,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "0.9x"
+  },
+  "lease_adjusted_leverage.2025": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 3.0618712273641853,
+   "unit": "x",
+   "year": 2025,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "3.1x"
+  },
+  "interest_coverage.2025": {
+   "label": "Operating income / interest expense",
+   "value": 2.562874251497006,
+   "unit": "x",
+   "year": 2025,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2025",
+    "interest_expense.2025"
+   ],
+   "display": "2.6x"
+  },
+  "ebitda_margin.2025": {
+   "label": "EBITDA margin",
+   "value": 0.0708406086305812,
+   "unit": "pct",
+   "year": 2025,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2025",
+    "revenue.2025"
+   ],
+   "display": "7.1%"
+  },
+  "cfo_to_debt.2025": {
+   "label": "Operating cash flow / debt",
+   "value": 0.37370663420572126,
+   "unit": "pct",
+   "year": 2025,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2025",
+    "total_debt.2025"
+   ],
+   "display": "37.4%"
+  }
+ },
+ "trace": [
+  {
+   "model": "gemini-3.5-flash-lite",
+   "tokens_in": 2857,
+   "tokens_out": 494,
+   "latency_ms": 1585,
+   "purpose": "risk_analyst",
+   "source": "replay"
+  },
+  {
+   "model": "gemini-3.5-flash-lite",
+   "tokens_in": 4957,
+   "tokens_out": 726,
+   "latency_ms": 1966,
+   "purpose": "debt_analyst",
+   "source": "replay"
+  },
+  {
+   "model": "gemini-3.5-flash-lite",
+   "tokens_in": 3110,
+   "tokens_out": 371,
+   "latency_ms": 1291,
+   "purpose": "events_analyst",
+   "source": "replay"
+  },
+  {
+   "model": "gemini-3.5-flash-lite",
+   "tokens_in": 8335,
+   "tokens_out": 1202,
+   "latency_ms": 2955,
+   "purpose": "writer",
+   "source": "replay"
+  },
+  {
+   "model": "gemini-3.5-flash-lite",
+   "tokens_in": 4664,
+   "tokens_out": 291,
+   "latency_ms": 1134,
+   "purpose": "evaluator",
+   "source": "replay"
+  }
+ ],
+ "draft": {
+  "headline": "The company maintained strong liquidity and reduced leverage while navigating supply chain constraints and expanding its financing arrangements.",
+  "sections": [
+   {
+    "title": "Risk factors",
+    "bullets": [
+     {
+      "text": "The company highlighted ongoing single-manufacturer dependency risks related to Boeing and the MAX aircraft, along with potential procurement difficulties and manufacturer constraints that could limit growth and affect cost structures.",
+      "citations": [
+       "0000092380-26-000004#RF-6",
+       "0000092380-26-000004#RF-7"
+      ],
+      "metrics": [],
+      "signals": []
+     },
+     {
+      "text": "New risk disclosures address the substantial operational complexities and regulatory hurdles of introducing a new aircraft fleet type, as well as emerging compliance and cybersecurity challenges associated with expanded artificial intelligence initiatives.",
+      "citations": [
+       "0000092380-26-000004#RF-8",
+       "0000092380-26-000004#RF-17"
+      ],
+      "metrics": [],
+      "signals": []
+     }
+    ]
+   },
+   {
+    "title": "Debt and liquidity",
+    "bullets": [
+     {
+      "text": "Leverage improved year-over-year as total debt decreased while EBITDA remained stable, with metrics moving from {{m:leverage.2024}} to {{m:leverage.2025}}.",
+      "citations": [
+       "0000092380-26-000004#7A-5"
+      ],
+      "metrics": [
+       "leverage.2024",
+       "leverage.2025",
+       "total_debt.2024",
+       "total_debt.2025",
+       "ebitda.2024",
+       "ebitda.2025"
+      ],
+      "signals": []
+     },
+     {
+      "text": "Liquidity is supported by cash reserves of {{m:cash.2025}} and total liquid assets of {{m:liquid_assets.2025}}, alongside an undrawn revolving credit facility expanded via its accordion feature.",
+      "citations": [
+       "0000092380-26-000004#7-283",
+       "0000092380-26-000004#debt-49"
+      ],
+      "metrics": [
+       "cash.2025",
+       "liquid_assets.2025"
+      ],
+      "signals": []
+     }
+    ]
+   },
+   {
+    "title": "Events since the 10-K",
+    "bullets": [
+     {
+      "text": "During the first half of 2026, the company entered into a senior secured term loan credit facility and subsequently executed an upsize for incremental loan commitments maturing in full in March 2029.",
+      "citations": [
+       "0000092380-26-000077#2-334"
+      ],
+      "metrics": [],
+      "signals": []
+     },
+     {
+      "text": "The company prepaid its outstanding payroll support program note and engaged in share repurchases and cash dividend payments during the first half of 2026.",
+      "citations": [
+       "0000092380-26-000077#2-334"
+      ],
+      "metrics": [],
+      "signals": []
+     }
+    ]
+   }
+  ],
+  "proposed_status": "Stable",
+  "status_reasons": [
+   {
+    "text": "Leverage fell year over year.",
+    "citations": [],
+    "metrics": [
+     "leverage.2025",
+     "leverage.2024"
+    ],
+    "signals": [
+     "S1"
+    ]
+   },
+   {
+    "text": "Interest coverage remains below the illustrative threshold.",
+    "citations": [],
+    "metrics": [
+     "interest_coverage.2025"
+    ],
+    "signals": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Next two years of debt maturities are large relative to cash.",
+    "citations": [],
+    "metrics": [
+     "maturity_y1.2025",
+     "maturity_y2.2025",
+     "liquid_assets.2025"
+    ],
+    "signals": [
+     "S3"
+    ]
+   },
+   {
+    "text": "A credit-related risk factor regarding artificial intelligence was added.",
+    "citations": [
+     "0000092380-26-000004#RF-17"
+    ],
+    "metrics": [],
+    "signals": [
+     "S4"
+    ]
+   }
+  ]
+ },
+ "rendered": {
+  "headline": "The company maintained strong liquidity and reduced leverage while navigating supply chain constraints and expanding its financing arrangements.",
+  "sections": [
+   {
+    "title": "Risk factors",
+    "bullets": [
+     {
+      "text": "The company highlighted ongoing single-manufacturer dependency risks related to Boeing and the MAX aircraft, along with potential procurement difficulties and manufacturer constraints that could limit growth and affect cost structures.",
+      "citations": [
+       "0000092380-26-000004#RF-6",
+       "0000092380-26-000004#RF-7"
+      ],
+      "metrics": [],
+      "signals": []
+     },
+     {
+      "text": "New risk disclosures address the substantial operational complexities and regulatory hurdles of introducing a new aircraft fleet type, as well as emerging compliance and cybersecurity challenges associated with expanded artificial intelligence initiatives.",
+      "citations": [
+       "0000092380-26-000004#RF-8",
+       "0000092380-26-000004#RF-17"
+      ],
+      "metrics": [],
+      "signals": []
+     }
+    ]
+   },
+   {
+    "title": "Debt and liquidity",
+    "bullets": [
+     {
+      "text": "Leverage improved year-over-year as total debt decreased while EBITDA remained stable, with metrics moving from 3.4x to 2.5x.",
+      "citations": [
+       "0000092380-26-000004#7A-5"
+      ],
+      "metrics": [
+       "leverage.2024",
+       "leverage.2025",
+       "total_debt.2024",
+       "total_debt.2025",
+       "ebitda.2024",
+       "ebitda.2025"
+      ],
+      "signals": []
+     },
+     {
+      "text": "Liquidity is supported by cash reserves of $3.2bn and total liquid assets of $3.2bn, alongside an undrawn revolving credit facility expanded via its accordion feature.",
+      "citations": [
+       "0000092380-26-000004#7-283",
+       "0000092380-26-000004#debt-49"
+      ],
+      "metrics": [
+       "cash.2025",
+       "liquid_assets.2025"
+      ],
+      "signals": []
+     }
+    ]
+   },
+   {
+    "title": "Events since the 10-K",
+    "bullets": [
+     {
+      "text": "During the first half of 2026, the company entered into a senior secured term loan credit facility and subsequently executed an upsize for incremental loan commitments maturing in full in March 2029.",
+      "citations": [
+       "0000092380-26-000077#2-334"
+      ],
+      "metrics": [],
+      "signals": []
+     },
+     {
+      "text": "The company prepaid its outstanding payroll support program note and engaged in share repurchases and cash dividend payments during the first half of 2026.",
+      "citations": [
+       "0000092380-26-000077#2-334"
+      ],
+      "metrics": [],
+      "signals": []
+     }
+    ]
+   }
+  ],
+  "proposed_status": "Stable",
+  "status_reasons": [
+   {
+    "text": "Leverage fell year over year.",
+    "citations": [],
+    "metrics": [
+     "leverage.2025",
+     "leverage.2024"
+    ],
+    "signals": [
+     "S1"
+    ]
+   },
+   {
+    "text": "Interest coverage remains below the illustrative threshold.",
+    "citations": [],
+    "metrics": [
+     "interest_coverage.2025"
+    ],
+    "signals": [
+     "S2"
+    ]
+   },
+   {
+    "text": "Next two years of debt maturities are large relative to cash.",
+    "citations": [],
+    "metrics": [
+     "maturity_y1.2025",
+     "maturity_y2.2025",
+     "liquid_assets.2025"
+    ],
+    "signals": [
+     "S3"
+    ]
+   },
+   {
+    "text": "A credit-related risk factor regarding artificial intelligence was added.",
+    "citations": [
+     "0000092380-26-000004#RF-17"
+    ],
+    "metrics": [],
+    "signals": [
+     "S4"
+    ]
+   }
+  ]
+ },
+ "findings": {
+  "risk_analyst": [
+   {
+    "claim": "The company added a risk factor warning that procurement difficulties, manufacturer constraints, or delivery delays could limit growth, negatively affect cost structures, and reduce negotiating leverage with aircraft suppliers and lessors.",
+    "citations": [
+     "0000092380-26-000004#RF-7"
+    ],
+    "metrics": [],
+    "importance": "high"
+   },
+   {
+    "claim": "The company added a risk factor highlighting the operational complexities, substantial costs, and regulatory hurdles of introducing a new aircraft manufacturer or fleet type, which could shift the company away from its single-fleet model.",
+    "citations": [
+     "0000092380-26-000004#RF-8"
+    ],
+    "metrics": [],
+    "importance": "high"
+   },
+   {
+    "claim": "The company modified its single-manufacturer dependency risk factor regarding Boeing and the MAX aircraft, noting competitive disadvantages relative to carriers with more diversified fleets.",
+    "citations": [
+     "0000092380-26-000004#RF-6"
+    ],
+    "metrics": [],
+    "importance": "high"
+   },
+   {
+    "claim": "The fuel risk factor was updated to include additional geopolitical supply disruption risks, economic sanctions on oil-producing countries, and reliance on timely jet fuel delivery at served airports.",
+    "citations": [
+     "0000092380-26-000004#RF-1"
+    ],
+    "metrics": [],
+    "importance": "medium"
+   },
+   {
+    "claim": "The company added a risk factor regarding its expansion into AI and machine learning, citing potential cybersecurity vulnerabilities, regulatory compliance challenges, and competitive disadvantages.",
+    "citations": [
+     "0000092380-26-000004#RF-17"
+    ],
+    "metrics": [],
+    "importance": "low"
+   }
+  ],
+  "debt_analyst": [
+   {
+    "claim": "Leverage improved year-over-year as total debt decreased and EBITDA remained stable, with leverage ratios moving lower from the prior period.",
+    "citations": [
+     "0000092380-26-000004#7A-5"
+    ],
+    "metrics": [
+     "leverage.2024",
+     "leverage.2025",
+     "total_debt.2024",
+     "total_debt.2025",
+     "ebitda.2024",
+     "ebitda.2025"
+    ],
+    "importance": "high"
+   },
+   {
+    "claim": "Interest coverage strengthened considerably as operating income increased and interest expense declined.",
+    "citations": [
+     "0000092380-26-000004#7A-5"
+    ],
+    "metrics": [
+     "interest_coverage.2024",
+     "interest_coverage.2025",
+     "operating_income.2024",
+     "operating_income.2025",
+     "interest_expense.2024",
+     "interest_expense.2025"
+    ],
+    "importance": "high"
+   },
+   {
+    "claim": "Liquidity is supported by cash and short-term investments alongside an undrawn revolving credit facility that was expanded via its accordion feature.",
+    "citations": [
+     "0000092380-26-000004#7-283",
+     "0000092380-26-000004#debt-49"
+    ],
+    "metrics": [
+     "cash.2025",
+     "liquid_assets.2025"
+    ],
+    "importance": "high"
+   },
+   {
+    "claim": "Near-term debt maturities decrease significantly for the upcoming year compared to the prior period following extensive debt repayments.",
+    "citations": [
+     "0000092380-26-000004#7-278"
+    ],
+    "metrics": [
+     "current_debt.2024",
+     "current_debt.2025",
+     "maturity_y1.2024",
+     "maturity_y1.2025"
+    ],
+    "importance": "medium"
+   },
+   {
+    "claim": "The revolving credit facility contains a minimum coverage ratio covenant and triggers tied to credit ratings and transaction agreements.",
+    "citations": [
+     "0000092380-26-000004#debt-53",
+     "0000092380-26-000004#7A-14"
+    ],
+    "metrics": [],
+    "importance": "medium"
+   }
+  ],
+  "events_analyst": [
+   {
+    "claim": "During the first half of 2026, the company entered into a senior secured term loan credit facility and subsequently executed an upsize for incremental loan commitments, with the facility maturing in full in March 2029.",
+    "citations": [
+     "0000092380-26-000077#2-334"
+    ],
+    "metrics": [],
+    "importance": "high"
+   },
+   {
+    "claim": "The company prepaid its outstanding payroll support program note and engaged in share repurchases and cash dividend payments during the first half of 2026.",
+    "citations": [
+     "0000092380-26-000077#2-334"
+    ],
+    "metrics": [],
+    "importance": "high"
+   },
+   {
+    "claim": "Liquidity resources include unrestricted cash and a large base of unencumbered aircraft and related assets, alongside maintained investment-grade credit ratings.",
+    "citations": [
+     "0000092380-26-000077#2-341"
+    ],
+    "metrics": [],
+    "importance": "medium"
+   },
+   {
+    "claim": "Routine filings since the latest 10-K include reports on results of operations, officer and director appointments, and shareholder vote results.",
+    "citations": [],
+    "metrics": [],
+    "importance": "low"
+   }
+  ]
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "gate_failures": [],
+   "evaluator": {
+    "bullets": [
+     {
+      "n": 1,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 2,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 3,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 4,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 5,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 6,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 7,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 8,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 9,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 10,
+      "supported": true,
+      "issue": ""
+     }
+    ],
+    "advice_free": true
+   }
+  }
+ ],
+ "passed": true,
+ "state": "AWAITING_APPROVAL"
+}

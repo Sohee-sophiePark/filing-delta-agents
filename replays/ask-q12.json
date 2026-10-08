@@ -1,0 +1,1192 @@
+{
+ "kind": "ask",
+ "ticker": "UAL",
+ "name": "United Airlines Holdings",
+ "fiscal_year": 2025,
+ "filings": {
+  "current_10k": {
+   "form": "10-K",
+   "filed": "2026-02-12",
+   "period": "2025-12-31",
+   "accession": "0000100517-26-000023",
+   "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+  },
+  "prior_10k": {
+   "form": "10-K",
+   "filed": "2025-02-27",
+   "period": "2024-12-31",
+   "accession": "0000100517-25-000046",
+   "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+  }
+ },
+ "signals": [],
+ "allowed_status": [
+  "Monitor",
+  "Stable"
+ ],
+ "evidence": {
+  "0000100517-26-000023#debt-26": {
+   "id": "0000100517-26-000023#debt-26",
+   "kind": "passage",
+   "source": "10-K filed 2026-02-12, Debt note",
+   "text": "Our debt agreements contain customary terms and conditions as well as various affirmative, negative and financial covenants that, among other things, limit our ability under certain circumstances to create liens on collateral, make certain dividends, stock repurchases, restricted investments and other restricted payments, and consolidate, merge, sell, or otherwise dispose of all or substantially all of our assets. Our debt agreements also contain events of default customary for similar financings including, in certain cases, cross-payment default and cross-acceleration to other material indebtedness. Certain of our debt agreements contain financial covenants that require the Company to maintain at least $2.0 billion of unrestricted liquidity at all times, which includes unrestricted cash, certain liquid and short-term investments and any undrawn amounts under any revolving credit facility, and to maintain a minimum ratio of appraised value of collateral to the outstanding debt secured by such collateral on a senior basis of 1.6 to 1.0, tested semi-annually. As of December 31, 2025, the Company was in compliance with its debt covenants under these agreements.",
+   "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+  },
+  "0000100517-26-000023#7-118": {
+   "id": "0000100517-26-000023#7-118",
+   "kind": "passage",
+   "source": "10-K filed 2026-02-12, Item 7 MD&A",
+   "text": "We have a significant amount of fixed obligations, including debt, leases of aircraft, airport and other facilities, and pension funding obligations. As of December 31, 2025, the Company had approximately $31.0 billion of debt, finance lease, operating lease and other financial liabilities, including $5.1 billion that will become due in the next 12 months. In addition, we have substantial noncancelable commitments for capital expenditures, including the acquisition of certain new aircraft and related spare engines. Our debt agreements contain customary terms and conditions as well as various affirmative, negative and financial covenants that, among other things, limit our ability under certain circumstances to create liens on collateral, make certain dividends, stock repurchases, restricted investments and other restricted payments, and consolidate, merge, sell, or otherwise dispose of all or substantially all of our assets. Our debt agreements also contain events of default customary for similar financings including, in certain cases, cross-payment default and cross-acceleration to other material indebtedness. Certain of our debt agreements contain financial covenants that require the Company to maintain at least $2.0 billion of unrestricted liquidity at all times, which includes unrestricted cash, certain liquid and short-term investments and any undrawn amounts under any revolving credit facility, and to maintain a minimum ratio of appraised value of collateral to the outstanding debt secured by such collateral on a senior basis of 1.6 to 1.0, tested semi-annually. As of December 31, 2025, UAL and United were in compliance with their respective debt covenants under these agreements. As of December 31, 2025, a substantial portion of the Company's assets, principally aircraft and certain related assets, certain route authorities and airport slots and gates, was pledged under various loan and other agreements. See Note 10 to the financial statements included in Part II, Item 8 of this report for additional information on aircraft financing and other debt instruments.",
+   "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+  }
+ },
+ "metrics": {
+  "revenue.2023": {
+   "label": "Total operating revenue",
+   "value": 53717000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-86",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$53.7bn"
+  },
+  "operating_income.2023": {
+   "label": "Operating income",
+   "value": 4211000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-122",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$4.2bn"
+  },
+  "d_and_a.2023": {
+   "label": "Depreciation and amortization",
+   "value": 2671000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:DepreciationDepletionAndAmortization",
+    "fact_id": "f-101",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.7bn"
+  },
+  "interest_expense.2023": {
+   "label": "Interest expense",
+   "value": 1956000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-125",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.0bn"
+  },
+  "cfo.2023": {
+   "label": "Net cash from operating activities",
+   "value": 6911000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-294",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$6.9bn"
+  },
+  "total_debt.2023": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 29352000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-1653",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$29.4bn"
+  },
+  "current_debt.2023": {
+   "label": "Current maturities of debt",
+   "value": 4018000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtCurrent",
+    "fact_id": "f-1581",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$4.0bn"
+  },
+  "operating_lease_liability.2023": {
+   "label": "Operating lease liabilities",
+   "value": 5079000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-1730",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$5.1bn"
+  },
+  "finance_lease_liability.2023": {
+   "label": "Finance lease liabilities",
+   "value": 263000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-1731",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$263m"
+  },
+  "cash.2023": {
+   "label": "Cash and cash equivalents",
+   "value": 6058000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-768",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$6.1bn"
+  },
+  "short_term_investments.2023": {
+   "label": "Short-term investments",
+   "value": 8330000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-174",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$8.3bn"
+  },
+  "maturity_y1.2023": {
+   "label": "Debt maturing within one year",
+   "value": 4018000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-1647",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$4.0bn"
+  },
+  "maturity_y2.2023": {
+   "label": "Debt maturing in year two",
+   "value": 3452000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-1648",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$3.5bn"
+  },
+  "maturity_y3.2023": {
+   "label": "Debt maturing in year three",
+   "value": 5245000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-1649",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$5.2bn"
+  },
+  "maturity_y4.2023": {
+   "label": "Debt maturing in year four",
+   "value": 2475000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-1650",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$2.5bn"
+  },
+  "maturity_y5.2023": {
+   "label": "Debt maturing in year five",
+   "value": 5306000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-1651",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$5.3bn"
+  },
+  "maturity_after_y5.2023": {
+   "label": "Debt maturing after year five",
+   "value": 8856000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-1652",
+    "form": "10-K",
+    "filed": "2024-02-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000027/ual-20231231.htm"
+   },
+   "display": "$8.9bn"
+  },
+  "ebitda.2023": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 6882000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2023",
+    "d_and_a.2023"
+   ],
+   "display": "$6.9bn"
+  },
+  "liquid_assets.2023": {
+   "label": "Cash and short-term investments",
+   "value": 14388000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2023",
+    "short_term_investments.2023"
+   ],
+   "display": "$14.4bn"
+  },
+  "net_debt.2023": {
+   "label": "Net debt",
+   "value": 14964000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2023",
+    "liquid_assets.2023"
+   ],
+   "display": "$15.0bn"
+  },
+  "lease_adjusted_debt.2023": {
+   "label": "Lease-adjusted debt",
+   "value": 34694000000.0,
+   "unit": "usd",
+   "year": 2023,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2023",
+    "operating_lease_liability.2023",
+    "finance_lease_liability.2023"
+   ],
+   "display": "$34.7bn"
+  },
+  "leverage.2023": {
+   "label": "Debt / EBITDA",
+   "value": 4.265039232781168,
+   "unit": "x",
+   "year": 2023,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "4.3x"
+  },
+  "net_leverage.2023": {
+   "label": "Net debt / EBITDA",
+   "value": 2.1743679163034,
+   "unit": "x",
+   "year": 2023,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "2.2x"
+  },
+  "lease_adjusted_leverage.2023": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 5.041267073525138,
+   "unit": "x",
+   "year": 2023,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2023",
+    "ebitda.2023"
+   ],
+   "display": "5.0x"
+  },
+  "interest_coverage.2023": {
+   "label": "Operating income / interest expense",
+   "value": 2.1528629856850716,
+   "unit": "x",
+   "year": 2023,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2023",
+    "interest_expense.2023"
+   ],
+   "display": "2.2x"
+  },
+  "ebitda_margin.2023": {
+   "label": "EBITDA margin",
+   "value": 0.12811586648547016,
+   "unit": "pct",
+   "year": 2023,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2023",
+    "revenue.2023"
+   ],
+   "display": "12.8%"
+  },
+  "cfo_to_debt.2023": {
+   "label": "Operating cash flow / debt",
+   "value": 0.23545243935677296,
+   "unit": "pct",
+   "year": 2023,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2023",
+    "total_debt.2023"
+   ],
+   "display": "23.5%"
+  },
+  "revenue.2024": {
+   "label": "Total operating revenue",
+   "value": 57063000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-85",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$57.1bn"
+  },
+  "operating_income.2024": {
+   "label": "Operating income",
+   "value": 5096000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-121",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$5.1bn"
+  },
+  "d_and_a.2024": {
+   "label": "Depreciation and amortization",
+   "value": 2928000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:DepreciationDepletionAndAmortization",
+    "fact_id": "f-100",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.9bn"
+  },
+  "interest_expense.2024": {
+   "label": "Interest expense",
+   "value": 1629000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-124",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$1.6bn"
+  },
+  "cfo.2024": {
+   "label": "Net cash from operating activities",
+   "value": 9445000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-293",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$9.4bn"
+  },
+  "total_debt.2024": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 24837000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-1602",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$24.8bn"
+  },
+  "current_debt.2024": {
+   "label": "Current maturities of debt",
+   "value": 2973000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtCurrent",
+    "fact_id": "f-1649",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$3.0bn"
+  },
+  "operating_lease_liability.2024": {
+   "label": "Operating lease liabilities",
+   "value": 4977000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-1692",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$5.0bn"
+  },
+  "finance_lease_liability.2024": {
+   "label": "Finance lease liabilities",
+   "value": 291000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-1693",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$291m"
+  },
+  "cash.2024": {
+   "label": "Cash and cash equivalents",
+   "value": 8769000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-172",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$8.8bn"
+  },
+  "short_term_investments.2024": {
+   "label": "Short-term investments",
+   "value": 5706000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-174",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$5.7bn"
+  },
+  "maturity_y1.2024": {
+   "label": "Debt maturing within one year",
+   "value": 2973000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-1596",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$3.0bn"
+  },
+  "maturity_y2.2024": {
+   "label": "Debt maturing in year two",
+   "value": 4793000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-1597",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$4.8bn"
+  },
+  "maturity_y3.2024": {
+   "label": "Debt maturing in year three",
+   "value": 2326000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-1598",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$2.3bn"
+  },
+  "maturity_y4.2024": {
+   "label": "Debt maturing in year four",
+   "value": 1791000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-1599",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$1.8bn"
+  },
+  "maturity_y5.2024": {
+   "label": "Debt maturing in year five",
+   "value": 2892000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-1600",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$2.9bn"
+  },
+  "maturity_after_y5.2024": {
+   "label": "Debt maturing after year five",
+   "value": 10062000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-1601",
+    "form": "10-K",
+    "filed": "2025-02-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000046/ual-20241231.htm"
+   },
+   "display": "$10.1bn"
+  },
+  "ebitda.2024": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 8024000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2024",
+    "d_and_a.2024"
+   ],
+   "display": "$8.0bn"
+  },
+  "liquid_assets.2024": {
+   "label": "Cash and short-term investments",
+   "value": 14475000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2024",
+    "short_term_investments.2024"
+   ],
+   "display": "$14.5bn"
+  },
+  "net_debt.2024": {
+   "label": "Net debt",
+   "value": 10362000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2024",
+    "liquid_assets.2024"
+   ],
+   "display": "$10.4bn"
+  },
+  "lease_adjusted_debt.2024": {
+   "label": "Lease-adjusted debt",
+   "value": 30105000000.0,
+   "unit": "usd",
+   "year": 2024,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2024",
+    "operating_lease_liability.2024",
+    "finance_lease_liability.2024"
+   ],
+   "display": "$30.1bn"
+  },
+  "leverage.2024": {
+   "label": "Debt / EBITDA",
+   "value": 3.0953389830508473,
+   "unit": "x",
+   "year": 2024,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "3.1x"
+  },
+  "net_leverage.2024": {
+   "label": "Net debt / EBITDA",
+   "value": 1.2913758723828515,
+   "unit": "x",
+   "year": 2024,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "1.3x"
+  },
+  "lease_adjusted_leverage.2024": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 3.7518693918245263,
+   "unit": "x",
+   "year": 2024,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2024",
+    "ebitda.2024"
+   ],
+   "display": "3.8x"
+  },
+  "interest_coverage.2024": {
+   "label": "Operating income / interest expense",
+   "value": 3.1282995702885206,
+   "unit": "x",
+   "year": 2024,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2024",
+    "interest_expense.2024"
+   ],
+   "display": "3.1x"
+  },
+  "ebitda_margin.2024": {
+   "label": "EBITDA margin",
+   "value": 0.14061651157492597,
+   "unit": "pct",
+   "year": 2024,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2024",
+    "revenue.2024"
+   ],
+   "display": "14.1%"
+  },
+  "cfo_to_debt.2024": {
+   "label": "Operating cash flow / debt",
+   "value": 0.38027942183033375,
+   "unit": "pct",
+   "year": 2024,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2024",
+    "total_debt.2024"
+   ],
+   "display": "38.0%"
+  },
+  "revenue.2025": {
+   "label": "Total operating revenue",
+   "value": 59070000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "fact_id": "f-84",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$59.1bn"
+  },
+  "operating_income.2025": {
+   "label": "Operating income",
+   "value": 4713000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:OperatingIncomeLoss",
+    "fact_id": "f-120",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$4.7bn"
+  },
+  "d_and_a.2025": {
+   "label": "Depreciation and amortization",
+   "value": 2939000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:DepreciationDepletionAndAmortization",
+    "fact_id": "f-99",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.9bn"
+  },
+  "interest_expense.2025": {
+   "label": "Interest expense",
+   "value": 1373000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:InterestExpenseNonoperating",
+    "fact_id": "f-123",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$1.4bn"
+  },
+  "cfo.2025": {
+   "label": "Net cash from operating activities",
+   "value": 8431000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "fact_id": "f-292",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$8.4bn"
+  },
+  "total_debt.2025": {
+   "label": "Total debt (incl. current maturities)",
+   "value": 21383000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebt",
+    "fact_id": "f-1671",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$21.4bn"
+  },
+  "current_debt.2025": {
+   "label": "Current maturities of debt",
+   "value": 4096000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtCurrent",
+    "fact_id": "f-1648",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$4.1bn"
+  },
+  "operating_lease_liability.2025": {
+   "label": "Operating lease liabilities",
+   "value": 6048000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:OperatingLeaseLiability",
+    "fact_id": "f-1749",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$6.0bn"
+  },
+  "finance_lease_liability.2025": {
+   "label": "Finance lease liabilities",
+   "value": 474000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:FinanceLeaseLiability",
+    "fact_id": "f-1750",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$474m"
+  },
+  "cash.2025": {
+   "label": "Cash and cash equivalents",
+   "value": 5942000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+    "fact_id": "f-171",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$5.9bn"
+  },
+  "short_term_investments.2025": {
+   "label": "Short-term investments",
+   "value": 6298000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:ShortTermInvestments",
+    "fact_id": "f-173",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$6.3bn"
+  },
+  "maturity_y1.2025": {
+   "label": "Debt maturing within one year",
+   "value": 4096000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+    "fact_id": "f-1665",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$4.1bn"
+  },
+  "maturity_y2.2025": {
+   "label": "Debt maturing in year two",
+   "value": 2011000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+    "fact_id": "f-1666",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.0bn"
+  },
+  "maturity_y3.2025": {
+   "label": "Debt maturing in year three",
+   "value": 1839000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+    "fact_id": "f-1667",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$1.8bn"
+  },
+  "maturity_y4.2025": {
+   "label": "Debt maturing in year four",
+   "value": 2932000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+    "fact_id": "f-1668",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.9bn"
+  },
+  "maturity_y5.2025": {
+   "label": "Debt maturing in year five",
+   "value": 2467000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+    "fact_id": "f-1669",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$2.5bn"
+  },
+  "maturity_after_y5.2025": {
+   "label": "Debt maturing after year five",
+   "value": 8039000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "source": {
+    "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+    "fact_id": "f-1670",
+    "form": "10-K",
+    "filed": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000023/ual-20251231.htm"
+   },
+   "display": "$8.0bn"
+  },
+  "ebitda.2025": {
+   "label": "EBITDA (operating income + D&A)",
+   "value": 7652000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "operating_income + d_and_a",
+   "inputs": [
+    "operating_income.2025",
+    "d_and_a.2025"
+   ],
+   "display": "$7.7bn"
+  },
+  "liquid_assets.2025": {
+   "label": "Cash and short-term investments",
+   "value": 12240000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "cash + short_term_investments",
+   "inputs": [
+    "cash.2025",
+    "short_term_investments.2025"
+   ],
+   "display": "$12.2bn"
+  },
+  "net_debt.2025": {
+   "label": "Net debt",
+   "value": 9143000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "total_debt - liquid_assets",
+   "inputs": [
+    "total_debt.2025",
+    "liquid_assets.2025"
+   ],
+   "display": "$9.1bn"
+  },
+  "lease_adjusted_debt.2025": {
+   "label": "Lease-adjusted debt",
+   "value": 27905000000.0,
+   "unit": "usd",
+   "year": 2025,
+   "formula": "total_debt + operating_lease_liability + finance_lease_liability",
+   "inputs": [
+    "total_debt.2025",
+    "operating_lease_liability.2025",
+    "finance_lease_liability.2025"
+   ],
+   "display": "$27.9bn"
+  },
+  "leverage.2025": {
+   "label": "Debt / EBITDA",
+   "value": 2.7944328280188184,
+   "unit": "x",
+   "year": 2025,
+   "formula": "total_debt / ebitda",
+   "inputs": [
+    "total_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "2.8x"
+  },
+  "net_leverage.2025": {
+   "label": "Net debt / EBITDA",
+   "value": 1.1948510193413486,
+   "unit": "x",
+   "year": 2025,
+   "formula": "net_debt / ebitda",
+   "inputs": [
+    "net_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "1.2x"
+  },
+  "lease_adjusted_leverage.2025": {
+   "label": "Lease-adjusted debt / EBITDA",
+   "value": 3.646759017250392,
+   "unit": "x",
+   "year": 2025,
+   "formula": "lease_adjusted_debt / ebitda",
+   "inputs": [
+    "lease_adjusted_debt.2025",
+    "ebitda.2025"
+   ],
+   "display": "3.6x"
+  },
+  "interest_coverage.2025": {
+   "label": "Operating income / interest expense",
+   "value": 3.4326292789512016,
+   "unit": "x",
+   "year": 2025,
+   "formula": "operating_income / interest_expense",
+   "inputs": [
+    "operating_income.2025",
+    "interest_expense.2025"
+   ],
+   "display": "3.4x"
+  },
+  "ebitda_margin.2025": {
+   "label": "EBITDA margin",
+   "value": 0.12954122227865245,
+   "unit": "pct",
+   "year": 2025,
+   "formula": "ebitda / revenue",
+   "inputs": [
+    "ebitda.2025",
+    "revenue.2025"
+   ],
+   "display": "13.0%"
+  },
+  "cfo_to_debt.2025": {
+   "label": "Operating cash flow / debt",
+   "value": 0.39428517981574146,
+   "unit": "pct",
+   "year": 2025,
+   "formula": "cfo / total_debt",
+   "inputs": [
+    "cfo.2025",
+    "total_debt.2025"
+   ],
+   "display": "39.4%"
+  }
+ },
+ "trace": [
+  {
+   "model": "gemini-3.1-flash-lite",
+   "tokens_in": 487,
+   "tokens_out": 27,
+   "latency_ms": 9392,
+   "purpose": "router",
+   "source": "live"
+  },
+  {
+   "model": "gemini-3.1-flash-lite",
+   "tokens_in": 3008,
+   "tokens_out": 213,
+   "latency_ms": 15811,
+   "purpose": "answer",
+   "source": "live"
+  },
+  {
+   "model": "gemini-3.1-flash-lite",
+   "tokens_in": 1837,
+   "tokens_out": 74,
+   "latency_ms": 21773,
+   "purpose": "evaluator",
+   "source": "live"
+  }
+ ],
+ "question": "What liquidity or collateral tests must United meet under its financing agreements?",
+ "route": "answer",
+ "answer": [
+  {
+   "text": "Certain debt agreements require the Company to maintain a minimum of $2.0 billion in unrestricted liquidity at all times, which includes unrestricted cash, certain liquid and short-term investments, and undrawn amounts under revolving credit facilities.",
+   "citations": [
+    "0000100517-26-000023#debt-26",
+    "0000100517-26-000023#7-118"
+   ],
+   "metrics": [],
+   "signals": []
+  },
+  {
+   "text": "Certain debt agreements require the Company to maintain a minimum ratio of appraised collateral value to senior secured debt of 1.6 to 1.0, which is tested on a semi-annual basis.",
+   "citations": [
+    "0000100517-26-000023#debt-26",
+    "0000100517-26-000023#7-118"
+   ],
+   "metrics": [],
+   "signals": []
+  }
+ ],
+ "attempts": [
+  {
+   "attempt": 1,
+   "gate_failures": [],
+   "evaluator": {
+    "bullets": [
+     {
+      "n": 1,
+      "supported": true,
+      "issue": ""
+     },
+     {
+      "n": 2,
+      "supported": true,
+      "issue": ""
+     }
+    ],
+    "advice_free": true
+   }
+  }
+ ],
+ "passed": true
+}

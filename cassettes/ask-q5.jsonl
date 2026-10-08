@@ -1,0 +1,1 @@
+{"key": "f78b767e8d1217391ef91b906879f54a51e139384cc6d2072f03fcf231460f79", "purpose": "router", "meta": {"model": "gemini-3.5-flash-lite", "tokens_in": 480, "tokens_out": 10, "latency_ms": 30129}, "response": {"route": "advice", "query": ""}}

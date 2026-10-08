@@ -1,0 +1,139 @@
+# Gold risk-factor alignment, labelled by reading both years' headings side by side.
+# Headings are matched by their first 80 characters. prior: null = added.
+pairs:
+- ticker: DAL
+  current: 0000027904-26-000013
+  prior: 0000027904-25-000004
+  matches:
+  - current: 'We are at risk of losses and adverse publicity stemming from a serious accident '
+    prior: 'We are at risk of losses and adverse publicity stemming from a serious accident '
+  - current: 'Breaches or lapses in the security of the technology systems we use and rely on '
+    prior: 'Breaches or lapses in the security of the technology systems we use and rely on '
+  - current: Disruptions of our information technology infrastructure could interfere with ou
+    prior: Disruptions of our information technology infrastructure could interfere with ou
+  - current: Failure of the technology we use to perform effectively could have a material ad
+    prior: Failure of the technology we use to perform effectively could have a material ad
+  - current: Our business and results of operations are dependent on the price of aircraft fu
+    prior: Our business and results of operations are dependent on the price of aircraft fu
+  - current: 'Significant extended disruptions in the supply of aircraft fuel, including from '
+    prior: 'Significant extended disruptions in the supply of aircraft fuel, including from '
+  - current: Our commercial relationships with airlines in other parts of the world and the i
+    prior: Our commercial relationships with airlines in other parts of the world and the i
+  - current: A significant disruption in, or other problems with respect to, the operations o
+    prior: A significant disruption in, or other problems with respect to, the operations o
+  - current: 'Agreements governing our debt, including our credit facilities and our SkyMiles '
+    prior: 'Agreements governing our debt, including our credit facilities and our SkyMiles '
+  - current: Employee strikes and other labor-related disruptions may have a material adverse
+    prior: Employee strikes and other labor-related disruptions may have a material adverse
+  - current: Our results can fluctuate due to seasonality and other factors.
+    prior: Our results can fluctuate due to seasonality and other factors.
+  - current: An environmental or other incident associated with the operation of the Monroe r
+    prior: An environmental or other incident associated with the operation of the Monroe r
+  - current: 'The operation of the refinery by Monroe is subject to significant environmental '
+    prior: 'The operation of the refinery by Monroe is subject to significant environmental '
+  - current: Significant damage to our reputation and brand, including as a result of signifi
+    prior: Significant damage to our reputation and brand, including as a result of signifi
+  - current: If we lose senior management and other key employees and they are not replaced b
+    prior: If we lose senior management and other key employees and they are not replaced b
+  - current: Disease outbreaks or other public health threats, and measures implemented to co
+    prior: Disease outbreaks or other public health threats, and measures implemented to co
+  - current: Terrorist attacks, geopolitical conflict or security events may adversely affect
+    prior: Terrorist attacks, geopolitical conflict or security events may adversely affect
+  - current: The global airline industry is highly competitive and, if we cannot successfully
+    prior: The global airline industry is highly competitive and, if we cannot successfully
+  - current: Extended interruptions or disruptions in service at major airports in which we o
+    prior: Extended interruptions or disruptions in service at major airports in which we o
+  - current: The airline industry is subject to extensive regulatory and legal compliance req
+    prior: The airline industry is subject to extensive regulatory and legal compliance req
+  - current: The airline industry is subject to many forms of environmental regulation, inclu
+    prior: The airline industry is subject to many forms of environmental regulation, inclu
+  - current: 'Because of the global nature of our business, unfavorable economic or political '
+    prior: 'Because of the global nature of our business, unfavorable economic or political '
+  removed: []
+- ticker: AAL
+  current: 0000006201-26-000014
+  prior: 0000006201-25-000010
+  matches:
+  - current: Downturns in economic conditions could adversely affect our business.
+    prior: Downturns in economic conditions could adversely affect our business.
+  - current: We will need to obtain sufficient financing or other capital to operate successf
+    prior: We will need to obtain sufficient financing or other capital to operate successf
+  - current: Our high level of debt and other obligations may limit our ability to fund gener
+    prior: Our high level of debt and other obligations may limit our ability to fund gener
+  - current: If our financial condition worsens, provisions in our credit card processing and
+    prior: If our financial condition worsens, provisions in our credit card processing and
+  - current: The loss of key personnel whom we depend on to operate our business, or the inab
+    prior: The loss of key personnel who we depend on to operate our business, or the inabi
+  - current: Our business has been and will continue to be materially affected by many changi
+    prior: Our business has been and will continue to be materially affected by many changi
+  - current: The airline industry is intensely competitive and dynamic.
+    prior: The airline industry is intensely competitive and dynamic.
+  - current: Union disputes, employee strikes and other labor-related disruptions may adverse
+    prior: Union disputes, employee strikes and other labor-related disruptions may adverse
+  - current: If we encounter problems with any of our third-party regional operators or third
+    prior: If we encounter problems with any of our third-party regional operators or third
+  - current: 'Any damage to our reputation or brand image could adversely affect our business '
+    prior: 'Any damage to our reputation or brand image could adversely affect our business '
+  - current: We are at risk of losses and adverse publicity stemming from any public incident
+    prior: We are at risk of losses and adverse publicity stemming from any public incident
+  - current: 'Changes to our business model that are designed to increase revenues and reduce '
+    prior: 'Changes to our business model that are designed to increase revenues and reduce '
+  - current: Our intellectual property rights, particularly our branding rights, are valuable
+    prior: Our intellectual property rights, particularly our branding rights, are valuable
+  - current: We may be a party to litigation in the normal course of business or otherwise, w
+    prior: We may be a party to litigation in the normal course of business or otherwise, w
+  - current: We rely heavily on technology and automated systems, including AI, to operate ou
+    prior: We rely heavily on technology and automated systems, including artificial intell
+  - current: Evolving data privacy requirements (in particular, compliance with applicable fe
+    prior: Evolving data privacy requirements (in particular, compliance with applicable fe
+  - current: We are exposed to risks from cyberattacks, and any cybersecurity incidents invol
+    prior: We are exposed to risks from cyberattacks, and any cybersecurity incidents invol
+  - current: New U.S. and international tax legislation may adversely affect our financial co
+    prior: New U.S. and international tax legislation may adversely affect our financial co
+  - current: We have a significant amount of goodwill, which is assessed for impairment at le
+    prior: We have a significant amount of goodwill, which is assessed for impairment at le
+  - current: The commercial relationships that we have with other companies, including any re
+    prior: The commercial relationships that we have with other companies, including any re
+  - current: Our business is very dependent on the price and availability of aircraft fuel. C
+    prior: Our business is very dependent on the price and availability of aircraft fuel. C
+  - current: Our business is subject to extensive government regulation, which may increase o
+    prior: 'Our business is subject to extensive government regulation, which may result in '
+  - current: We can be adversely affected by any prolonged U.S. Government shutdown.
+    prior: null
+  - current: We operate a global business with international operations that are subject to e
+    prior: We operate a global business with international operations that are subject to e
+  - current: We may be adversely affected by conflicts overseas, terrorist attacks or other a
+    prior: We may be adversely affected by conflicts overseas, terrorist attacks or other a
+  - current: We are subject to risks associated with climate change, including increased regu
+    prior: We are subject to risks associated with climate change, including increased regu
+  - current: We are subject to various risks associated with environmental and social matters
+    prior: We are subject to various risks associated with environmental and social matters
+  - current: We are subject to many forms of environmental and noise regulation and may incur
+    prior: We are subject to many forms of environmental and noise regulation and may incur
+  - current: A high level of pilot retirements, stringent duty time regulations, increased fl
+    prior: A high level of pilot retirements, stringent duty time regulations, increased fl
+  - current: We depend on a limited number of suppliers for aircraft, aircraft engines and pa
+    prior: We depend on a limited number of suppliers for aircraft, aircraft engines and pa
+  - current: We rely on third-party distribution channels and must effectively manage the cos
+    prior: We rely on third-party distribution channels and must effectively manage the cos
+  - current: If we are unable to obtain and maintain adequate facilities and infrastructure t
+    prior: If we are unable to obtain and maintain adequate facilities and infrastructure t
+  - current: 'Interruptions or disruptions in service at one of our key facilities could have '
+    prior: 'Interruptions or disruptions in service at one of our key facilities could have '
+  - current: Increases in insurance costs or reductions in insurance coverage may adversely i
+    prior: Increases in insurance costs or reductions in insurance coverage may adversely i
+  - current: The airline industry is heavily taxed.
+    prior: The airline industry is heavily taxed.
+  - current: The price of AAG common stock has been and may in the future be volatile.
+    prior: The price of AAG common stock has been and may in the future be volatile.
+  - current: Our ability to utilize our net operating losses (NOLs) and other carryforwards m
+    prior: Our ability to utilize our NOLs and other carryforwards may be limited.
+  - current: AAG’s Certificate of Incorporation, Bylaws and Tax Benefit Preservation Plan inc
+    prior: AAG’s Certificate of Incorporation, Bylaws and Tax Benefit Preservation Plan inc
+  - current: Certain provisions of AAG’s Certificate of Incorporation and Bylaws make it diff
+    prior: Certain provisions of AAG’s Certificate of Incorporation and Bylaws make it diff
+  - current: The issuance or sale of shares of our common stock or rights to acquire shares o
+    prior: The issuance or sale of shares of our common stock or rights to acquire shares o
+  removed:
+  - We have significant pension and other postretirement benefit funding obligations
+  - If we decide to make repurchases of or pay dividends on our common stock, we can

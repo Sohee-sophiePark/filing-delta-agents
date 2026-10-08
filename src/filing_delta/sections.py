@@ -67,11 +67,15 @@ class _Blocks(HTMLParser):
             self.cur.append((data, any(e for _, e in self.stack)))
 
 
+FURNITURE = re.compile(r"^(\d{1,3}|table of contents)$", re.I)
+
+
 def blocks(html: str) -> list[Block]:
+    """Text blocks in reading order; page numbers and "Table of Contents" links are dropped."""
     p = _Blocks()
     p.feed(html)
     p.flush()
-    return p.blocks
+    return [b for b in p.blocks if not FURNITURE.match(b.text)]
 
 
 def items(bs: list[Block], wanted: dict[str, str]) -> dict[str, list[Block]]:
@@ -97,19 +101,23 @@ def items(bs: list[Block], wanted: dict[str, str]) -> dict[str, list[Block]]:
 def risk_factors(item_1a: list[Block]) -> list[RiskFactor]:
     """Emphasised sentence-like headings with the text up to the next heading.
 
-    Category headings (no closing period) and headings without body text are dropped;
-    repeated consecutive headings are merged.
+    Category headings (no closing period) and headings without body text are dropped; a heading
+    wrapped over two blocks (second starts lowercase) is joined; repeated headings are merged.
     """
     out: list[list] = []
+    fragment = ""
     for b in item_1a:
-        heading = b.emphasis > 0.9 and 20 < len(b.text) < 600
-        if heading and b.text.rstrip().endswith((".", "?")):
-            if not (out and out[-1][0] == b.text):
-                out.append([b.text, []])
+        heading = b.emphasis > 0.9 and 3 < len(b.text) < 600
+        text = f"{fragment} {b.text}" if heading and fragment and b.text[0].islower() else b.text
+        if heading and text.rstrip().endswith((".", "?")) and len(text) > 20:
+            if not (out and out[-1][0] == text):
+                out.append([text, []])
+            fragment = ""
         elif heading:
-            continue
+            fragment = b.text
         elif out:
             out[-1][1].append(b.text)
+            fragment = ""
     return [RiskFactor(h, " ".join(body)) for h, body in out if body]
 
 

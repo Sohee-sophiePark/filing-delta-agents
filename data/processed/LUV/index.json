@@ -1,0 +1,565 @@
+{
+ "ticker": "LUV",
+ "name": "Southwest Airlines",
+ "cik": 92380,
+ "filings": [
+  {
+   "form": "10-K",
+   "filed": "2026-02-05",
+   "period": "2025-12-31",
+   "accession": "0000092380-26-000004",
+   "doc": "luv-20251231.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000004/luv-20251231.htm"
+  },
+  {
+   "form": "10-K",
+   "filed": "2025-02-07",
+   "period": "2024-12-31",
+   "accession": "0000092380-25-000024",
+   "doc": "luv-20241231.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238025000024/luv-20241231.htm"
+  },
+  {
+   "form": "10-K",
+   "filed": "2024-02-06",
+   "period": "2023-12-31",
+   "accession": "0000092380-24-000027",
+   "doc": "luv-20231231.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238024000027/luv-20231231.htm"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-07-23",
+   "period": "2026-06-30",
+   "accession": "0000092380-26-000077",
+   "doc": "luv-20260630.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000077/luv-20260630.htm"
+  },
+  {
+   "form": "10-Q",
+   "filed": "2026-04-23",
+   "period": "2026-03-31",
+   "accession": "0000092380-26-000047",
+   "doc": "luv-20260331.htm",
+   "url": "https://www.sec.gov/Archives/edgar/data/92380/000009238026000047/luv-20260331.htm"
+  }
+ ],
+ "events": [
+  {
+   "form": "8-K",
+   "filed": "2026-08-12",
+   "period": "2026-08-10",
+   "accession": "0000092380-26-000098",
+   "doc": "luv-20260810.htm",
+   "items": "1.01,1.02,2.03,9.01"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-10",
+   "period": "2026-08-10",
+   "accession": "0000092380-26-000093",
+   "doc": "luv-20260810.htm",
+   "items": "5.02"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-08-07",
+   "period": "2026-08-05",
+   "accession": "0001193125-26-340284",
+   "doc": "d101890d8k.htm",
+   "items": "5.02"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-07-22",
+   "period": "2026-07-22",
+   "accession": "0000092380-26-000074",
+   "doc": "luv-20260722.htm",
+   "items": "2.02,9.01"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-19",
+   "period": "2026-05-19",
+   "accession": "0001193125-26-230895",
+   "doc": "d117563d8k.htm",
+   "items": "1.01,2.03"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-05-11",
+   "period": "2026-05-07",
+   "accession": "0000092380-26-000050",
+   "doc": "luv-20260507.htm",
+   "items": "5.07"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-04-22",
+   "period": "2026-04-22",
+   "accession": "0000092380-26-000044",
+   "doc": "luv-20260422.htm",
+   "items": "2.02,9.01"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-03-12",
+   "period": "2026-03-11",
+   "accession": "0001193125-26-102966",
+   "doc": "d108115d8k.htm",
+   "items": "1.01,2.03"
+  },
+  {
+   "form": "8-K",
+   "filed": "2026-02-10",
+   "period": "2026-02-09",
+   "accession": "0001193125-26-044746",
+   "doc": "d107497d8k.htm",
+   "items": "5.02"
+  }
+ ],
+ "metrics": {
+  "revenue": {
+   "label": "Total operating revenue",
+   "values": {
+    "2023": {
+     "value": 26091000000.0,
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "fact_id": "f-140",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2024": {
+     "value": 27483000000.0,
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "fact_id": "f-139",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 28063000000.0,
+     "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+     "fact_id": "f-138",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "operating_income": {
+   "label": "Operating income",
+   "values": {
+    "2023": {
+     "value": 224000000.0,
+     "concept": "us-gaap:OperatingIncomeLoss",
+     "fact_id": "f-164",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2024": {
+     "value": 321000000.0,
+     "concept": "us-gaap:OperatingIncomeLoss",
+     "fact_id": "f-163",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 428000000.0,
+     "concept": "us-gaap:OperatingIncomeLoss",
+     "fact_id": "f-162",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "d_and_a": {
+   "label": "Depreciation and amortization",
+   "values": {
+    "2023": {
+     "value": 1522000000.0,
+     "concept": "us-gaap:DepreciationAndAmortization",
+     "fact_id": "f-155",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2024": {
+     "value": 1657000000.0,
+     "concept": "us-gaap:DepreciationAndAmortization",
+     "fact_id": "f-154",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 1560000000.0,
+     "concept": "us-gaap:DepreciationAndAmortization",
+     "fact_id": "f-153",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "interest_expense": {
+   "label": "Interest expense",
+   "values": {
+    "2023": {
+     "value": 259000000.0,
+     "concept": "us-gaap:InterestExpenseNonoperating",
+     "fact_id": "f-167",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2024": {
+     "value": 249000000.0,
+     "concept": "us-gaap:InterestExpenseNonoperating",
+     "fact_id": "f-166",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 167000000.0,
+     "concept": "us-gaap:InterestExpenseNonoperating",
+     "fact_id": "f-165",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "cfo": {
+   "label": "Net cash from operating activities",
+   "values": {
+    "2023": {
+     "value": 3164000000.0,
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "fact_id": "f-326",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2024": {
+     "value": 462000000.0,
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "fact_id": "f-325",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 1842000000.0,
+     "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+     "fact_id": "f-324",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "total_debt": {
+   "label": "Total debt (incl. current maturities)",
+   "values": {
+    "2023": {
+     "value": 8012000000.0,
+     "concept": "us-gaap:LongTermDebt",
+     "fact_id": "f-782",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 6697000000.0,
+     "concept": "us-gaap:LongTermDebt",
+     "fact_id": "f-703",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 4929000000.0,
+     "concept": "us-gaap:LongTermDebt",
+     "fact_id": "f-690",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "current_debt": {
+   "label": "Current maturities of debt",
+   "values": {
+    "2023": {
+     "value": 29000000.0,
+     "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+     "fact_id": "f-94",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2024": {
+     "value": 1630000000.0,
+     "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+     "fact_id": "f-94",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 324000000.0,
+     "concept": "us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent",
+     "fact_id": "f-93",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "operating_lease_liability": {
+   "label": "Operating lease liabilities",
+   "values": {
+    "2023": {
+     "value": 1193000000.0,
+     "concept": "us-gaap:OperatingLeaseLiability",
+     "fact_id": "f-892",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 1359000000.0,
+     "concept": "us-gaap:OperatingLeaseLiability",
+     "fact_id": "f-841",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 1080000000.0,
+     "concept": "us-gaap:OperatingLeaseLiability",
+     "fact_id": "f-824",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "finance_lease_liability": {
+   "label": "Finance lease liabilities",
+   "values": {
+    "2023": {
+     "value": 104000000.0,
+     "concept": "us-gaap:FinanceLeaseLiability",
+     "fact_id": "f-631",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2024": {
+     "value": 91000000.0,
+     "concept": "us-gaap:FinanceLeaseLiability",
+     "fact_id": "f-626",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 78000000.0,
+     "concept": "us-gaap:FinanceLeaseLiability",
+     "fact_id": "f-625",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "cash": {
+   "label": "Cash and cash equivalents",
+   "values": {
+    "2023": {
+     "value": 9288000000.0,
+     "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+     "fact_id": "f-52",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2024": {
+     "value": 7509000000.0,
+     "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+     "fact_id": "f-52",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 3231000000.0,
+     "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+     "fact_id": "f-51",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "short_term_investments": {
+   "label": "Short-term investments",
+   "values": {
+    "2023": {
+     "value": 2186000000.0,
+     "concept": "us-gaap:ShortTermInvestments",
+     "fact_id": "f-54",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2024": {
+     "value": 1216000000.0,
+     "concept": "us-gaap:ShortTermInvestments",
+     "fact_id": "f-54",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    },
+    "2025": {
+     "value": 0.0,
+     "concept": "us-gaap:ShortTermInvestments",
+     "fact_id": "f-53",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_y1": {
+   "label": "Debt maturing within one year",
+   "values": {
+    "2023": {
+     "value": 29000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+     "fact_id": "f-776",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 1633000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+     "fact_id": "f-697",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 321000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+     "fact_id": "f-684",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_y2": {
+   "label": "Debt maturing in year two",
+   "values": {
+    "2023": {
+     "value": 2934000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+     "fact_id": "f-777",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 320000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+     "fact_id": "f-698",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 2150000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+     "fact_id": "f-685",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_y3": {
+   "label": "Debt maturing in year three",
+   "values": {
+    "2023": {
+     "value": 315000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+     "fact_id": "f-778",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 2149000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+     "fact_id": "f-699",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 766000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+     "fact_id": "f-686",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_y4": {
+   "label": "Debt maturing in year four",
+   "values": {
+    "2023": {
+     "value": 2142000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+     "fact_id": "f-779",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 15000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+     "fact_id": "f-700",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 11000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+     "fact_id": "f-687",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_y5": {
+   "label": "Debt maturing in year five",
+   "values": {
+    "2023": {
+     "value": 11000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+     "fact_id": "f-780",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 9000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+     "fact_id": "f-701",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 504000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
+     "fact_id": "f-688",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  },
+  "maturity_after_y5": {
+   "label": "Debt maturing after year five",
+   "values": {
+    "2023": {
+     "value": 2581000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+     "fact_id": "f-781",
+     "accession": "0000092380-24-000027",
+     "filed": "2024-02-06"
+    },
+    "2024": {
+     "value": 2571000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+     "fact_id": "f-702",
+     "accession": "0000092380-25-000024",
+     "filed": "2025-02-07"
+    },
+    "2025": {
+     "value": 1177000000.0,
+     "concept": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
+     "fact_id": "f-689",
+     "accession": "0000092380-26-000004",
+     "filed": "2026-02-05"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+# Run settings. RUN_MODE env var overrides run_mode: live | record | replay.
+run_mode: replay
+# Free-tier text models only, newest first; the next model is tried on quota/availability errors.
+# Source: ai.google.dev/gemini-api/docs/pricing (page updated 2026-10-07, checked 2026-10-08).
+models: [gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3.5-flash-lite,
+         gemini-3.1-flash-lite, gemini-2.5-flash, gemini-2.5-flash-lite]
+temperature: {specialist: 0.2, writer: 0.3, evaluator: 0.0, router: 0.0}
+max_output_tokens: 4096
+max_revisions: 2
+retrieval_k: 6
+
+# Watch signals: illustrative thresholds for a demo, not a credit methodology.
+signals:
+  net_leverage_high: 3.0        # net debt / EBITDA, x
+  leverage_change: 0.5          # year-over-year change in debt / EBITDA, x
+  coverage_low: 3.0             # operating income / interest expense, x
+  maturities_vs_cash: 0.5       # next two years of maturities / (cash + short-term investments)
+  credit_terms: 'debt|covenant|liquidity|financ|credit rating|collateral|borrow'
+  credit_8k_items: ['1.01', '1.02', '2.03', '2.04', '2.05', '2.06', '3.01', '4.02']
+
+paths: {processed: data/processed, cassettes: cassettes, replays: replays, prompts: prompts, credit_file: runs/credit_file.json}

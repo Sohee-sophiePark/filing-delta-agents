@@ -114,7 +114,8 @@ def ingest(edgar: Edgar, cfg: dict, out_dir: pathlib.Path) -> dict[str, dict]:
         d = out_dir / tk
         d.mkdir(parents=True, exist_ok=True)
         for doc in docs:
-            (d / f"{doc['accession']}.json").write_text(json.dumps(doc), encoding="utf-8")
+            slim = {k: v for k, v in doc.items() if k != "facts"}  # facts feed metrics() only
+            (d / f"{doc['accession']}.json").write_text(json.dumps(slim), encoding="utf-8")
         index = {
             "ticker": tk,
             "name": a["name"],

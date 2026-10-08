@@ -20,12 +20,12 @@ metrics:
   finance_lease_liability: {label: Finance lease liabilities, period: instant, concepts: [FinanceLeaseLiability]}
   cash: {label: Cash and cash equivalents, period: instant, concepts: [CashAndCashEquivalentsAtCarryingValue]}
   short_term_investments: {label: Short-term investments, period: instant, concepts: [ShortTermInvestments]}
-  maturity_y1: {label: Debt maturing in year 1, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths]}
-  maturity_y2: {label: Debt maturing in year 2, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo]}
-  maturity_y3: {label: Debt maturing in year 3, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree]}
-  maturity_y4: {label: Debt maturing in year 4, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour]}
-  maturity_y5: {label: Debt maturing in year 5, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive]}
-  maturity_after_y5: {label: Debt maturing after year 5, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive]}
+  maturity_y1: {label: Debt maturing within one year, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths]}
+  maturity_y2: {label: Debt maturing in year two, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo]}
+  maturity_y3: {label: Debt maturing in year three, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree]}
+  maturity_y4: {label: Debt maturing in year four, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour]}
+  maturity_y5: {label: Debt maturing in year five, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive]}
+  maturity_after_y5: {label: Debt maturing after year five, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive]}
 
 overrides:  # per airline, merged over the metric defaults
   DAL:

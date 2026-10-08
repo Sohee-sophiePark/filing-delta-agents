@@ -1,0 +1,46 @@
+# Retrieval gold set: analyst questions per airline; a hit is a retrieved passage matching `gold` (regex).
+# Gold passages were located with regex searches over the corpus, independent of the retriever.
+items:
+  - {ticker: DAL, q: "How much liquidity did Delta have at the end of 2025?", gold: 'December 31, 2025(, we had| was) \$7\.4 billion'}
+  - {ticker: DAL, q: "Did any rating agency change Delta's credit rating?", gold: 'upgraded its rating for Delta to Baa2'}
+  - {ticker: DAL, q: "What financial covenants apply to Delta's loyalty program financing?", gold: 'SkyMiles financing agreements contain minimum coverage ratios'}
+  - {ticker: DAL, q: "How much of Delta's debt comes due in 2026?", gold: 'scheduled maturities of our debt in 2026 are \$1\.4 billion'}
+  - {ticker: DAL, q: "How large are Delta's commitments to buy aircraft?", gold: 'aircraft purchase commitments, which totaled approximately \$15\.4 billion'}
+  - {ticker: DAL, q: "Did Delta raise new bond financing in 2025 and what was it used for?", gold: 'issued \$2\.0 billion in aggregate principal amount of unsecured notes'}
+  - {ticker: DAL, q: "What was Delta's liquidity at mid-2026?", gold: 'As of June 30, 2026, we had \$7\.7 billion in cash'}
+  - {ticker: DAL, q: "Is Delta buying back stock?", gold: '\$1\.0 billion opportunistic share repurchase program'}
+  - {ticker: DAL, q: "How much has Delta's jet fuel cost per gallon swung in recent years?", gold: 'average fuel price per gallon has ranged from a monthly high of \$3\.22'}
+  - {ticker: DAL, q: "How are Delta's pension funding payments treated in cash flow?", gold: 'Pension plan contributions\. Cash flows related to pension funding'}
+
+  - {ticker: UAL, q: "Has United drawn on its revolver?", gold: 'No borrowings were outstanding under the revolving credit facility as of December 31, 2025'}
+  - {ticker: UAL, q: "What liquidity or collateral tests must United meet under its financing agreements?", gold: 'maintain minimum liquidity and/or minimum collateral coverage ratios'}
+  - {ticker: UAL, q: "What happened to United's loyalty program secured notes?", gold: 'MileagePlus 6\.5% senior secured notes due 2027'}
+  - {ticker: UAL, q: "How much does United plan to spend on capex in 2026?", gold: 'expects less than \$8\.0 billion of adjusted capital expenditures'}
+  - {ticker: UAL, q: "What did United pay per gallon for jet fuel?", gold: 'Average price per gallon of fuel, including fuel taxes\$2\.44'}
+  - {ticker: UAL, q: "Does United hedge its fuel exposure?", gold: 'decides to start a hedging program to hedge a portion of its future fuel'}
+  - {ticker: UAL, q: "Are aircraft manufacturers delivering United's planes late?", gold: 'deliveries from Boeing and Airbus have been delayed'}
+  - {ticker: UAL, q: "How much cash did United put into its pension plans in 2025?", gold: '\$0\.3 billion related to pension contributions in 2025'}
+  - {ticker: UAL, q: "Did United reach a new contract with its flight attendants?", gold: 'Association of Flight Attendants \("AFA"\) per the new collective bargaining agreement'}
+  - {ticker: UAL, q: "What are the risks of United's stock buyback program?", gold: 'cannot guarantee that our share repurchase program will enhance'}
+
+  - {ticker: AAL, q: "How much liquidity did American have at year-end 2025?", gold: '\$9\.2 billion in total available liquidity'}
+  - {ticker: AAL, q: "Is American rated investment grade?", gold: 'our non-investment grade corporate credit rating'}
+  - {ticker: AAL, q: "Does American hedge jet fuel?", gold: 'Our current policy is not to enter into transactions to hedge our fuel consumption'}
+  - {ticker: AAL, q: "What collateral backs American's loyalty program financing?", gold: 'AAdvantage program as collateral for the AAdvantage Financing'}
+  - {ticker: AAL, q: "How did American's fuel price per gallon change in 2025?", gold: 'average price per gallon of aircraft fuel including related taxes to \$2\.39 in 2025'}
+  - {ticker: AAL, q: "Tell me about American's 7.25% secured notes due 2028.", gold: 'issued \$750 million aggregate principal amount of 7\.25% senior secured notes due 2028'}
+  - {ticker: AAL, q: "How have American's union contracts affected labor costs?", gold: 'agreements with the unions representing mainline pilots, flight attendants'}
+  - {ticker: AAL, q: "What will American spend on aircraft and engines over the next five years?", gold: 'aircraft purchase commitments and certain engines on a consolidated basis for calendar years 2026 through 2030'}
+  - {ticker: AAL, q: "What pension contributions is American required to make?", gold: 'Represents minimum pension contributions and expected contributions'}
+  - {ticker: AAL, q: "Which coverage ratios do American's financing agreements require?", gold: 'collateral coverage ratios and peak debt service coverage ratios'}
+
+  - {ticker: LUV, q: "Is Southwest still rated investment grade?", gold: 'maintain investment-grade credit ratings by all three major credit agencies'}
+  - {ticker: LUV, q: "How big is Southwest's revolving credit facility?", gold: 'increasing the size of the facility to \$1\.5 billion'}
+  - {ticker: LUV, q: "What bonds did Southwest issue in 2025?", gold: 'issued \$750 million senior unsecured notes due 2035'}
+  - {ticker: LUV, q: "How exposed is Southwest to Boeing delivery delays?", gold: 'Boeing has in the past, and may continue to, experience delays in fulfilling its commitments'}
+  - {ticker: LUV, q: "How does Southwest hedge jet fuel purchases?", gold: 'over-the-counter fuel derivative instruments to hedge a portion of its future jet fuel purchases'}
+  - {ticker: LUV, q: "Do any of Southwest's agreements have rating triggers?", gold: 'Certain covenants include the maintenance of minimum credit ratings'}
+  - {ticker: LUV, q: "What did Southwest pay employees when the labor contracts were ratified?", gold: 'bonuses upon the ratification of the labor contract agreements'}
+  - {ticker: LUV, q: "Why does Southwest report leverage ratios?", gold: 'Leverage ratios are widely used by investors, analysts, and rating agencies'}
+  - {ticker: LUV, q: "What is Southwest's available liquidity?", gold: "Additional detail regarding the Company's available liquidity"}
+  - {ticker: LUV, q: "Does Southwest have to pay deposits before aircraft are delivered?", gold: 'required to make cash deposits toward the purchase of aircraft in advance'}
