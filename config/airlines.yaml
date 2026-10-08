@@ -1,0 +1,45 @@
+# Coverage and metric map. Concepts without a prefix are us-gaap; the first concept found wins.
+# period: duration (fiscal year) | instant (fiscal year end). dims: required dimensions (default: none).
+annual_filings: 3
+
+airlines:
+  DAL: {cik: 27904, name: Delta Air Lines}
+  UAL: {cik: 100517, name: United Airlines Holdings}
+  AAL: {cik: 6201, name: American Airlines Group}
+  LUV: {cik: 92380, name: Southwest Airlines}
+
+metrics:
+  revenue: {label: Total operating revenue, period: duration, concepts: [RevenueFromContractWithCustomerExcludingAssessedTax, Revenues]}
+  operating_income: {label: Operating income, period: duration, concepts: [OperatingIncomeLoss]}
+  d_and_a: {label: Depreciation and amortization, period: duration, concepts: [DepreciationDepletionAndAmortization, DepreciationAndAmortization]}
+  interest_expense: {label: Interest expense, period: duration, concepts: [InterestExpenseNonoperating, InterestExpense]}
+  cfo: {label: Net cash from operating activities, period: duration, concepts: [NetCashProvidedByUsedInOperatingActivities]}
+  total_debt: {label: Total debt (incl. current maturities), period: instant, concepts: [LongTermDebt]}
+  current_debt: {label: Current maturities of debt, period: instant, concepts: [LongTermDebtCurrent, LongTermDebtAndCapitalLeaseObligationsCurrent]}
+  operating_lease_liability: {label: Operating lease liabilities, period: instant, concepts: [OperatingLeaseLiability]}
+  finance_lease_liability: {label: Finance lease liabilities, period: instant, concepts: [FinanceLeaseLiability]}
+  cash: {label: Cash and cash equivalents, period: instant, concepts: [CashAndCashEquivalentsAtCarryingValue]}
+  short_term_investments: {label: Short-term investments, period: instant, concepts: [ShortTermInvestments]}
+  maturity_y1: {label: Debt maturing in year 1, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths]}
+  maturity_y2: {label: Debt maturing in year 2, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo]}
+  maturity_y3: {label: Debt maturing in year 3, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree]}
+  maturity_y4: {label: Debt maturing in year 4, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour]}
+  maturity_y5: {label: Debt maturing in year 5, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive]}
+  maturity_after_y5: {label: Debt maturing after year 5, period: instant, concepts: [LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive]}
+
+overrides:  # per airline, merged over the metric defaults
+  DAL:
+    interest_expense: {label: "Interest expense, net", concepts: [InterestIncomeExpenseNonoperatingNet], negate: true}
+  UAL:
+    total_debt: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_y1: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_y2: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_y3: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_y4: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_y5: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+    maturity_after_y5: {dims: {"dei:LegalEntityAxis": "ual:UalAndUnitedMember"}}
+  AAL:
+    cash: {concepts: [Cash]}
+    short_term_investments: {concepts: [AvailableForSaleSecuritiesDebtSecuritiesCurrent]}
+
+debt_note_title: '\bdebt\b|financing activities'

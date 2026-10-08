@@ -1,0 +1,67 @@
+# ── Secrets & credentials — HIGHEST PRIORITY, never commit ──────────────────
+# Any .env with any prefix/suffix/extension (incl. backups), keys, certs, tokens.
+.env
+.env*
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+*.kdbx
+.netrc
+.npmrc
+.pypirc
+secrets/
+.aws/
+.ssh/
+**/credentials/**
+*credentials*.json
+*service-account*.json
+*secret*.json
+*.secret
+*.secrets
+
+# ── Internal material — never commit ────────────────────────────────────────
+INTERNAL.md
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+runs/
+*.log
+
+# ── Data (SEC downloads are cached locally, never committed) ────────────────
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+web/dist/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Derived corpus (rebuilt by `filing-delta ingest`)
+data/processed/
